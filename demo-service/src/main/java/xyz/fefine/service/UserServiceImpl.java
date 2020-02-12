@@ -2,8 +2,8 @@ package xyz.fefine.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import fefine.core.mapper.UserMapper;
-import fefine.core.model.User;
+import xyz.fefine.core.mapper.UserMapper;
+import xyz.fefine.core.model.User;
 
 @Service
 public class UserServiceImpl implements UserService {

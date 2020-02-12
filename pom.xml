@@ -25,7 +25,7 @@
         <mysql.version>8.0.19</mysql.version>
         <mybatis.version>2.1.1</mybatis.version>
         <maven-compiler.version>3.8.1</maven-compiler.version>
-        <druid.version>1.1.21</druid.version>
+        <druid.version>1.1.20</druid.version>
     </properties>
 
     <dependencyManagement>
@@ -68,17 +68,17 @@
                 <version>${springboot.version}</version>
             </dependency>
 
-            <!--submodule-->
             <dependency>
-                <groupId>xyz.fefine</groupId>
-                <artifactId>demo-core</artifactId>
-                <version>${project.version}</version>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter</artifactId>
+                <version>${springboot.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>xyz.fefine</groupId>
-                <artifactId>demo-service</artifactId>
-                <version>${project.version}</version>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <scope>test</scope>
+                <version>${springboot.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -87,14 +87,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
-            <version>${springboot.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-            <version>${springboot.version}</version>
         </dependency>
     </dependencies>
 
