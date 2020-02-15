@@ -7,7 +7,7 @@
   - [ ] xml
 - [x] mysql
 - [ ] redis
-- [ ] log
+- [x] log (sample logback.xml)
 - [ ] transaction
 - [ ] connection pool(druid)
 - [ ] monitor
