@@ -8,7 +8,7 @@
 - [x] mysql
 - [ ] redis
 - [x] log (sample logback.xml)
-- [ ] transaction
-- [ ] connection pool(druid)
+- [x] transaction (todo: need more data)
+- [x] connection pool(druid)
 - [ ] monitor
 - [ ] ...
